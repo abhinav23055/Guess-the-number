@@ -33,7 +33,7 @@ Guess-the-number/ ├── index.html ├── style.css └── script.js
 
 ## 📸 Screenshots
 
-![Game Screenshot](https://user-images.githubusercontent.com/your-image-link.png) <!-- Replace with your actual screenshot URL if available -->
+![Game Screenshot](Guess-the-number.PNG) <!-- Replace with your actual screenshot URL if available -->
 
 ## 🙌 Acknowledgements
 
