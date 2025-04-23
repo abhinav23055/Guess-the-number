@@ -22,3 +22,9 @@ document.addEventListener("keydown" , function(Event){
     if (Event.key === "Enter")
     document.getElementById("Guess").click();
 })
+
+document.getElementById("reset").addEventListener("click", function() {
+    randomnumber = Math.floor(Math.random() * 100) + 1; 
+    document.getElementById("userinput").value = "";
+    document.getElementById("feedback").innerText = "The Number was Reset"; 
+});
