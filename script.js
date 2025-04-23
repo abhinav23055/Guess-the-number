@@ -16,12 +16,12 @@ document.getElementById("Guess").addEventListener("click", function() {
         else if (userguess > randomnumber) {
             feedback.innerText="The number you guessed is too high";
         }
-});
+})
 
 document.addEventListener("keydown" , function(Event){
     if (Event.key === "Enter")
     document.getElementById("Guess").click();
-});
+})
 
 document.getElementById("reset").addEventListener("click", function() {
     randomnumber = Math.floor(Math.random() * 100) + 1; 
