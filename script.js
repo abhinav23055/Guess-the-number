@@ -1,4 +1,4 @@
-const randomnumber = Math.floor(Math.random()* 100) + 1;
+let randomnumber = Math.floor(Math.random()* 100) + 1;
 
 document.getElementById("Guess").addEventListener("click", function() {
     const userguess = Number(document.getElementById("userinput").value);
