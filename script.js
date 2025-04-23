@@ -17,3 +17,8 @@ document.getElementById("Guess").addEventListener("click", function() {
             feedback.innerText="The number you guessed is too high";
         }
 })
+
+document.addEventListener("keydown" , function(Event){
+    if (Event.key === "Enter")
+    document.getElementById("Guess").click();
+})
